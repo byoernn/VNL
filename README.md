@@ -19,3 +19,5 @@ In the End i hope to provide a solid piece of documentation to help you and othe
 
 1. [Development Environment](documentation/01-devenv.md)
 2. [A basic web page](documentation/02-basicpage.md)
+3. [My basics of HTML, CSS and JS](documentation/03-mybasics.md)
+4. [Set up a JavaScript project in vscode](documentation/04-setup-jsproj.md)
