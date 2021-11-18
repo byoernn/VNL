@@ -1,0 +1,13 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "javascript.inlayHints.variableTypes.enabled": true,
+    "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+    "javascript.inlayHints.parameterTypes.enabled": true,
+    "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "js/ts.implicitProjectConfig.strictFunctionTypes": true,
+    "js/ts.implicitProjectConfig.strictNullChecks": true
+}
