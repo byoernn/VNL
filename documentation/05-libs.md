@@ -157,3 +157,5 @@ myState.get("id"); // 1
 idSignal(2); //set update to update state
 myState.get("id"); // 2
 ```
+
+[Previous](04-setup-jsproj.md)
