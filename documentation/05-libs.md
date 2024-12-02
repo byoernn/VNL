@@ -1,6 +1,6 @@
 # Vanilla implementations for advanced app development
 
-Free tu fork an use them as local npm packages
+Free to fork and use them as local npm packages
 
 ## Router
 
