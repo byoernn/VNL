@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Routing Demo</title>
+    <base href="/" />
+    <script type="module">
+      import { defineElements } from "./index.js";
+      defineElements();
+    </script>
+  </head>
+  <body>
+    <nav>
+      <router-link path="/">
+        <button type="button">Home</button>
+      </router-link>
+      <router-link path="/about">
+        <button type="button">About</button>
+      </router-link>
+      <router-link path="/help">
+        <button type="button">Help</button>
+      </router-link>
+    </nav>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+    <script type="module">
+      import { routes } from "/demo/route-config.js";
+      document.addEventListener("DOMContentLoaded", () => {
+        let router = document.querySelector("router-outlet");
+        router.routes = routes;
+      });
+    </script>
+  </body>
+</html>
